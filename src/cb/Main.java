@@ -11,7 +11,6 @@ public class Main {
 		Scanner input = new Scanner(System.in);
 		Date dat1e = new Date();
 		LocalDate d = LocalDate.now();
-		dat1e.getDay();
 		int gun;
 		gun = input.nextInt();
 		int gun2 = (gun + dat1e.getDay()) % 7;
